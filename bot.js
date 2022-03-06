@@ -13,7 +13,7 @@ const bot = new Client({
   ],
 });
 
-bot.login(process.env.DISCORD_BOT_TOKEN);
+bot.login(DISCORD_BOT_TOKEN);
 
 bot.on("ready", () => {
   console.log(`${bot.user.username} is up and running`);
