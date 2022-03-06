@@ -4,7 +4,11 @@
   "description": "",
   "main": "bot.js",
   "type": "module",
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
