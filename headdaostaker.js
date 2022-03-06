@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const projectId = INFURA_PROJECT_ID;
-const projectSeret = INFURA_PROJECT_SECRET;
+const projectId = process.env.INFURA_PROJECT_ID;
+const projectSeret = process.env.INFURA_PROJECT_SECRET;
 
 const provider = new ethers.providers.InfuraProvider("homestead", {
   projectId,
