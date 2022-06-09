@@ -1,4 +1,4 @@
-# Discord-Bot---NFT-ownership-verification
+# Discord Bot NFT Ownership Verification
 this Bot is to verify the user is ownership of HeadDAO or not.
 
 by typing `>verify your wallet address`, discord bot will get the info from HeadDAO contract,  
